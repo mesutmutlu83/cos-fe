@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cascade-benzeri dil: sade, net tipografi, kartlar */
+:root { --accent: #1f6feb; }
+.card { @apply bg-white rounded-2xl shadow p-6 border border-slate-100; }
+.btn-primary { @apply px-4 py-2 rounded-lg text-white; background: var(--accent); }
+.input { @apply border rounded-lg px-3 py-2 w-full; }
+.label { @apply text-sm text-slate-600; }
